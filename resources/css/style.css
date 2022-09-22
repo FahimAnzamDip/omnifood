@@ -28,6 +28,9 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .row {
   max-width: 1140px;
@@ -76,6 +79,23 @@ h3 {
   word-spacing: 2px;
   text-align: center;
   margin-bottom: 15px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: orangered;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: none;
+  z-index: 9999;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
 }
 
 /*-----------------------------------*/
