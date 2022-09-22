@@ -375,6 +375,13 @@ img.city-photo {
   width: 100%;
   height: auto;
   margin-bottom: 15px;
+  transition: all 0.3s;
+}
+.city-featues-img-wrapper {
+  overflow: hidden;
+}
+img.city-photo:hover {
+  transform: scale(1.1);
 }
 
 i.icon-small {
